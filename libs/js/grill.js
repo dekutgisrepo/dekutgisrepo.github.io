@@ -1,7 +1,4 @@
 
-
-	$(document).ready(function(){
-
 	var map,  service, infoPopup,  places, infoWindow, origin, destination,autocomplete;
 	var centerPoint = {lat: 0.120850, lng: 36.50874};
 	var boundSW = {lat: -90, lng: -180};
@@ -1118,10 +1115,5 @@
         document.getElementById('total').innerHTML = total + ' km';
       }
 
-	  
-	google.maps.event.addDomListener(window, 'load', loadMap);
-
-
-	});
 
 
