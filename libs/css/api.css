@@ -291,3 +291,18 @@ input[type="button"]{
 		  font-family: monospace;
 		  color: #120EB6;
 	  }
+	  #includes{
+	    font-family: monospace, bell MT;
+		position: absolute;
+		display: block;
+		top: 615px;
+	  }
+	  #includes > p > a{
+		  color: #2F4D26;
+		  background-color: #DDB6DC;
+		  text-transform: capitalize;
+		  font-size: 13pt;
+		  letter-spacing: 1px;
+		  line-height: 1px;
+		  margin-right: 10px;
+	  }
